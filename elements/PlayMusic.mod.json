@@ -1,0 +1,12 @@
+{
+  "_fv": 34,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "F10",
+    "keyBindingName": "Play Music",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "PlayMusicOnKeyPressed"
+    }
+  }
+}

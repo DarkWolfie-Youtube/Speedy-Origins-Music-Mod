@@ -16,10 +16,16 @@ import net.fabricmc.api.Environment;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.ClientModInitializer;
 
+import com.darksmp.speedyoriginsaddons.init.SpeedyoriginsaddonsModScreens;
+import com.darksmp.speedyoriginsaddons.init.SpeedyoriginsaddonsModKeyMappings;
+
 @Environment(EnvType.CLIENT)
 public class ClientInit implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
+		SpeedyoriginsaddonsModKeyMappings.load();
+
+		SpeedyoriginsaddonsModScreens.load();
 
 	}
 }

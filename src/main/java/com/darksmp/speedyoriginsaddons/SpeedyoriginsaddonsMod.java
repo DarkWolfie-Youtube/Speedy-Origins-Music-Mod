@@ -18,6 +18,9 @@ import org.apache.logging.log4j.LogManager;
 import net.fabricmc.api.ModInitializer;
 
 import com.darksmp.speedyoriginsaddons.init.SpeedyoriginsaddonsModSounds;
+import com.darksmp.speedyoriginsaddons.init.SpeedyoriginsaddonsModProcedures;
+import com.darksmp.speedyoriginsaddons.init.SpeedyoriginsaddonsModMenus;
+import com.darksmp.speedyoriginsaddons.init.SpeedyoriginsaddonsModKeyMappings;
 import com.darksmp.speedyoriginsaddons.init.SpeedyoriginsaddonsModItems;
 
 public class SpeedyoriginsaddonsMod implements ModInitializer {
@@ -29,6 +32,11 @@ public class SpeedyoriginsaddonsMod implements ModInitializer {
 		LOGGER.info("Initializing SpeedyoriginsaddonsMod");
 
 		SpeedyoriginsaddonsModItems.load();
+
+		SpeedyoriginsaddonsModProcedures.load();
+
+		SpeedyoriginsaddonsModMenus.load();
+		SpeedyoriginsaddonsModKeyMappings.serverLoad();
 
 		SpeedyoriginsaddonsModSounds.load();
 
