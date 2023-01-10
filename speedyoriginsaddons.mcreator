@@ -1,0 +1,52 @@
+{
+  "mod_elements": [
+    {
+      "name": "Cg5vibrenteyes",
+      "type": "musicdisc",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cg_5vibrenteyes"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "cg5_eyes",
+      "files": [
+        "vibrent_eyes_-_cg5"
+      ],
+      "category": "master",
+      "subtitle": "Vibrent Eyes - CG5"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.speedyoriginsaddons.cg_5vibrenteyes": "Music Disc",
+      "subtitles.cg5_eyes": "Vibrent Eyes - CG5",
+      "item.speedyoriginsaddons.cg_5vibrenteyes.desc": "CG5 - Vibrent Eyes"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "speedyoriginsaddons",
+    "modName": "SpeedyOriginsAddons",
+    "version": "1.0.0",
+    "author": "DarkWolfie, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.2",
+    "modElementsPackage": "com.darksmp.speedyoriginsaddons",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

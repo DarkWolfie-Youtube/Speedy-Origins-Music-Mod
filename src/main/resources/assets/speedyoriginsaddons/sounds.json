@@ -1,0 +1,12 @@
+{
+  "cg5_eyes": {
+    "category": "master",
+    "subtitle": "subtitles.cg5_eyes",
+    "sounds": [
+      {
+        "name": "speedyoriginsaddons:vibrent_eyes_-_cg5",
+        "stream": false
+      }
+    ]
+  }
+}

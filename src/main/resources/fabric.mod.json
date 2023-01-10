@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "speedyoriginsaddons",
+  "version": "1.0.0",
+  "name": "SpeedyOriginsAddons",
+  "authors": [
+    "DarkWolfie, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.darksmp.speedyoriginsaddons.SpeedyoriginsaddonsMod"
+    ],
+    "client": [
+      "com.darksmp.speedyoriginsaddons.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "mixins": [
+    "speedyoriginsaddons.mixins.json"
+  ]
+}

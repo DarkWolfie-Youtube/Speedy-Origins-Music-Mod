@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "cg5-disc1",
+    "description": "CG5 - Vibrent Eyes",
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:cg5_eyes"
+    },
+    "lengthInTicks": 3000,
+    "analogOutput": 7
+  }
+}
