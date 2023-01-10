@@ -22,6 +22,7 @@ import com.darksmp.speedyoriginsaddons.init.SpeedyoriginsaddonsModProcedures;
 import com.darksmp.speedyoriginsaddons.init.SpeedyoriginsaddonsModMenus;
 import com.darksmp.speedyoriginsaddons.init.SpeedyoriginsaddonsModKeyMappings;
 import com.darksmp.speedyoriginsaddons.init.SpeedyoriginsaddonsModItems;
+import com.darksmp.speedyoriginsaddons.init.SpeedyoriginsaddonsModCommands;
 
 public class SpeedyoriginsaddonsMod implements ModInitializer {
 	public static final Logger LOGGER = LogManager.getLogger();
@@ -34,6 +35,7 @@ public class SpeedyoriginsaddonsMod implements ModInitializer {
 		SpeedyoriginsaddonsModItems.load();
 
 		SpeedyoriginsaddonsModProcedures.load();
+		SpeedyoriginsaddonsModCommands.load();
 
 		SpeedyoriginsaddonsModMenus.load();
 		SpeedyoriginsaddonsModKeyMappings.serverLoad();

@@ -40,7 +40,7 @@ public class SpeedyoriginsaddonsModKeyMappings {
 	}
 
 	public static SpeedyoriginsaddonsModKeyMapping PLAY_MUSIC = new SpeedyoriginsaddonsModKeyMapping("key.speedyoriginsaddons.play_music",
-			GLFW.GLFW_KEY_F10, "key.categories.misc");
+			GLFW.GLFW_KEY_Y, "key.categories.ui");
 
 	public static void serverLoad() {
 		ServerPlayNetworking.registerGlobalReceiver(new ResourceLocation(SpeedyoriginsaddonsMod.MODID, "play_music"), PlayMusicMessage::apply);

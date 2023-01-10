@@ -2,9 +2,9 @@
   "_fv": 34,
   "_type": "keybind",
   "definition": {
-    "triggerKey": "F10",
+    "triggerKey": "Y",
     "keyBindingName": "Play Music",
-    "keyBindingCategoryKey": "misc",
+    "keyBindingCategoryKey": "ui",
     "onKeyPressed": {
       "name": "PlayMusicOnKeyPressed"
     }
